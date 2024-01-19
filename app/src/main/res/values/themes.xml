@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ExpenseTracker_AdityaTrivedi" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/clr</item>
+        <item name="colorPrimaryVariant">@color/clr</item>
+    </style>
+
+    <style name="Theme.ExpenseTracker_AdityaTrivedi" parent="Base.Theme.ExpenseTracker_AdityaTrivedi" />
+</resources>

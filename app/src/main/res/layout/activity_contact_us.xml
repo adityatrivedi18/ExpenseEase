@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:alpha="0.2"
+        android:layout_height="match_parent"/>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        app:cardCornerRadius="28dp"
+        android:layout_marginTop="-20dp"
+        android:layout_alignParentTop="true"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="28dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Please feel free to contact us in case of any help required"
+                android:textColor="@color/clr"
+                android:textSize="32sp"
+                android:textStyle="bold"/>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/mail"
+                android:text="Mail Us"
+                android:drawableEnd="@drawable/mail_w"/>
+
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"/>
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/call"
+                android:text="Call Us"
+                android:drawableEnd="@drawable/phone_w"/>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"/>
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/back"
+                android:text="Go Back"
+                android:drawableEnd="@drawable/back_w"/>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
